@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CabInvoiceGenerator.CabInvoiceGenerator
+namespace CabInvoiceGenerator
 {
-    class RideType
+    public enum RideType
     {
+        NORMAL,
+        PREMIUM
     }
 }
